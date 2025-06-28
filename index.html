@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome to my page</title>
+  <style>
+    #image {
+      width: 300px;
+      height: 300px;
+      border: 1px solid black;
+      text-align: center;
+      padding-top: 120px;
+      font-size: 18px;
+      background-size: cover;
+    }
+    .preview {
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to my page</h1>
+  <h2>Let me show you around</h2>
+  <p>This is my first HTML page</p>
+  <ul>
+    <li>My name is Binh</li>
+    <li>I'm about to turn 19</li>
+    <li>I'm studying software engineering</li>
+  </ul>
+  <h3>This is my favorite images</h3>
+  <div id="image">Hover over an image below to display here.</div>
+  <img src="https://via.placeholder.com/100?text=Image+1" alt="Image 1" class="preview" onmouseover="upDate(this)" onmouseout="undo()">
+  <img src="https://via.placeholder.com/100?text=Image+2" alt="Image 2" class="preview" onmouseover="upDate(this)" onmouseout="undo()">
+  <p><a href="https://www.google.com" target="_blank">Find more memes at Google.</a></p>
+  <footer>This page was created by Tran Thai Binh</footer>
+  <script src="script.js"></script>
+</body>
+</html>

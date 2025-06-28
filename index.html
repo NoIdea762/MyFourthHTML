@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Welcome to my page</title>
   <style>
     #image {
@@ -11,12 +13,14 @@
       padding-top: 120px;
       font-size: 18px;
       background-size: cover;
+      background-position: center;
     }
     .preview {
       width: 100px;
       height: 100px;
       margin: 10px;
       cursor: pointer;
+      object-fit: cover;
     }
   </style>
 </head>
@@ -31,8 +35,8 @@
   </ul>
   <h3>This is my favorite images</h3>
   <div id="image">Hover over an image below to display here.</div>
-  <img src="https://vignette.wikia.nocookie.net/kards/images/e/ee/Katyusha_new.png/revision/latest?cb=20200427151910" alt="Image 1" class="preview" onmouseover="upDate(this)" onmouseout="undo()">
-  <img src="http://wallup.net/wp-content/uploads/2016/01/243335-Katyusha_Rocket-video_games-snow-war-missiles.jpg" alt="Image 2" class="preview" onmouseover="upDate(this)" onmouseout="undo()">
+  <img src="https://vignette.wikia.nocookie.net/kards/images/e/ee/Katyusha_new.png/revision/latest?cb=20200427151910" alt="Katyusha Card" class="preview" onmouseover="upDate(this)" onmouseout="undo()">
+  <img src="http://wallup.net/wp-content/uploads/2016/01/243335-Katyusha_Rocket-video_games-snow-war-missiles.jpg" alt="Katyusha Rocket in Snow" class="preview" onmouseover="upDate(this)" onmouseout="undo()">
   <p><a href="https://www.google.com" target="_blank">Find more memes at Google.</a></p>
   <footer>This page was created by Tran Thai Binh</footer>
   <script src="script.js"></script>
